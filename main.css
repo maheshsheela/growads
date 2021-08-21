@@ -1,0 +1,727 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body-sec{
+   display: none;
+}
+
+.lodar img {
+    width: 100%;
+    height: 600px;
+}
+.show{
+	display:block;
+}
+.hide{
+	display:none;
+}
+
+.not_active{
+	text-decoration:none;
+}
+
+button {
+    cursor: pointer;
+}
+/* manu icone bar*/
+
+
+
+#manu-icone {
+
+    display: none;
+    color: white;
+    width: auto;
+    height: 30px;
+    background-color: white;
+}
+
+/* header */
+
+ header {
+   
+    background-color: indigo;
+    
+ }
+
+ nav {
+    
+    overflow: auto;
+    padding: 3vh 6vh;
+    background-color: indigo;
+    color: white;
+    
+ }
+
+ .logo {
+    float: left;
+    cursor: pointer;
+ 
+   
+}
+
+.manu {
+    float: right;
+    justify-content: center;
+    
+
+    
+}
+
+
+.manu a {
+    color: white;
+    
+    font-size: 15px;
+    padding-right:3vh;
+    display: inline-block;
+
+}
+
+/* main */
+/* home page */
+
+ .home {
+     overflow: auto;
+     padding-top: 10vh;
+     padding-right: 6vh;
+     padding-left: 6vh;
+     background-color: azure;
+     padding-bottom: 3vh;
+ } 
+
+ .home-img {
+     float: left;    
+     width: 50%;
+ }
+
+ .home-img img {
+     width: 100%;
+ }
+
+ .home-pg {
+     float: right;
+     padding-top: 5%;
+     width: 50%;
+     text-align: right;
+
+ }
+ .home-pg button {
+     padding: 2%;
+     font-size: 15px;
+     border: 2px solid blue;
+     color: blue;
+     margin-top: 6vh;
+     background-color: white;
+ }
+ .home-pg h1 {
+     color: blue;
+     margin-left: 15%;
+     padding-bottom: 2%;
+     font-size: 1.5rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .home-why {
+    
+    text-align: center;
+    background-color: rgb(85, 85, 177);
+    padding: 3vh 0vh;
+    color: white;
+
+ }
+ .home-why h2 {
+     padding-bottom: 2vh;
+     color: black;
+ }
+.home-why-us {
+    overflow: auto;
+    padding-left: 6vh;
+    padding-right: 6vh;
+}
+ .why-1 {
+     width: 33.33%;
+     float: left;
+     padding-top: 6vh;
+     border-top: white solid 3px;
+     
+ }
+ .home-why p {
+     padding: 4vh;
+ }
+
+
+
+ /* contacts page */
+
+ .contact {
+     padding-top: 6vh;
+     padding-left: 6vh;
+     padding-right: 6vh;
+     background-color: azure;
+     padding-bottom: 3vh;
+ }
+
+ .contact h2 {
+     text-align: center;
+     color: blue;
+ }
+ .contacts-100 {
+     overflow: auto;
+     padding-top: 6vh;
+     
+ }
+ .con-img {
+     width: 50%;
+     float: left;
+ }
+
+ .con-img img {
+     width: 100%;
+ }
+
+ .con-form {
+    width: 50%;
+    float: right;
+    margin-top: 5%;
+  
+}
+
+
+.con-form input  {
+ 
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+    background-color: azure;
+
+}
+
+
+#btnSubmit {
+
+    width: 20%;
+    height: 6vh;
+    border: 2px solid rgb(80, 205, 243);
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(25, 231, 25);
+    color: white;
+    border-radius: 2vh;
+}
+
+
+
+  /* about us page */
+
+  .about {
+    padding-top: 6vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    padding-bottom: 3vh;
+    background-color: azure;
+}
+
+.about h2 {
+    text-align: center;
+    color: blue;
+}
+
+.about-pg {
+    padding-top: 6vh;
+}
+
+
+
+ /* privacy page */
+
+ .privacy {
+    padding-top: 6vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    padding-bottom: 3vh;
+    background-color: azure;
+}
+
+.privacy h2 {
+    text-align: center;
+    color: blue;
+}
+
+.privacy-pg {
+    padding-top: 6vh;
+}
+
+ /* footer */
+
+ footer {
+    padding: 2vh;
+    background-color: rgb(81, 77, 83);
+    
+}
+
+ footer p {
+
+    text-align: center;
+    color: white;
+
+ }
+
+  /* campaigns page */
+
+
+ .campaigns {
+    padding-top: 6vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    padding-bottom: 3vh;
+    background-color: rgb(241, 235, 235);
+}
+
+.campaigns h2 {
+
+    text-align: center;
+    color: blue;
+}
+
+.cam-card {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    margin-top: 6vh;
+    overflow: auto;
+    
+
+}
+
+.card-25 {
+    
+    width: 25%;
+    float: left;
+    height: 80%;
+}
+
+#card-sec {
+
+    width: 80%;
+    height: 200px;
+    border: solid gray 2px;
+    margin: 25px 25px 25px 25px;
+    cursor: pointer;
+}
+
+h5 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#card-sec img {
+    align-items: center;
+    padding-top: 10%;
+}
+#card-sec p {
+    padding: 7%;
+    text-align: center;
+}
+
+
+/*responce*/
+/* mobile */
+
+@media only screen and (max-width: 700px) { 
+
+    .home-img{
+        width: 100%;
+    }
+    .home-pg {
+        width: 100%;
+    }
+ .tab-main {
+     display: none;
+ }
+
+
+    #manu-icone {
+
+        display: block;
+    }
+
+
+ #wirth100 {
+
+    width: 94%;
+ }
+  
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .why-1 {
+        width: 100%;
+    }
+    
+    .con-form {
+        width: 100%;
+    }
+
+    .con-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .card-25 {
+        width: 100%;
+        height: auto;
+    }
+
+    #card-sec {
+        width: auto;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+    .mobile-menu {
+        
+        background-color: black;
+        color: white;
+        margin: 0px;
+        top: 0px;
+        position: fixed;
+        height: 300px;
+        left: 200px;
+        padding-top: 30px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .mobile-menu a {
+
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+        font-size: 20px;
+      
+    }
+    .mobile-menu img {
+
+        display: block;
+    }
+
+
+
+
+    .video-ads {
+
+        background-color: white;
+        position: fixed;
+        top: 3%;
+        left: 3%;
+        right: 3%;
+        bottom: 3%;
+        border-radius: 1vh;
+        
+        
+        
+    }
+
+   .video-ads-sec {
+       overflow: auto;
+       margin-top: 0%;
+       height: 85%;
+      
+
+   }
+
+   .video-ads-55 {
+       float: left;
+       width: 50%;
+       
+       
+   }
+
+   /* ads name */
+
+
+#campain-video-name input {
+      
+       width: 88%;
+       height: 6vh;
+       border-bottom: 2px solid grey;
+       border-top: none;
+       border-left: none;
+       border-right: none;
+       font-size: 15px;
+       margin: 2% 5%;
+       outline: none;
+
+}
+/* ads budget*/
+
+#campain-video-budget input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+/* ads cpv*/
+
+
+#campain-video-cpv input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+
+
+  /* ads lang */
+
+
+#campain-video-lang select {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+  /* ads keyword */
+
+
+#campain-video-keyword input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+  /* ads topic */
+
+
+#campain-video-topic select {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+  /* ads link */
+
+
+#campain-video-link input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+  /* ads ads-type*/
+
+
+
+#campain-video-ads-type select {
+
+      
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none; 
+}
+
+  /* ads headline */
+
+
+
+#campain-video-headline input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+
+
+  /* ads dis-1 */
+
+
+#campain-video-dis-1 input {
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+  /* ads dis-2 */
+
+#campain-video-dis-2 input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+
+   /* ads upi */
+
+
+
+#campain-video-upi input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+
+   /* ads bankig name */
+
+
+
+#campain-video-bankigname input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+
+
+
+
+   /* ads email */
+
+
+#campain-video-email input {
+
+    width: 88%;
+    height: 6vh;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+}
+
+
+
+   .video-ads-55-2 {
+       float: right;
+       width: 50%;
+       
+   }
+ 
+   #video-submit {
+
+    width: 20%;
+    height: 6vh;
+    border: 2px solid rgb(80, 205, 243);
+    font-size: 15px;
+    margin: 2% 5%;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(25, 231, 25);
+    color: white;
+    border-radius: 2vh;
+    
+   }
+
+#clossed-video-ads {
+
+    margin-top: 2%;
+    margin-left: 90%;
+    width: 30px;
+    cursor: pointer;
+    
+}
